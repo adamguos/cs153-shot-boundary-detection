@@ -2,7 +2,10 @@
 
 ## Acknowledgements
 
-[Tomáš Souček and Jakub Lokoč, TransNet V2: An effective deep network architecture for fast
+Katherine Breeden and Pat Hanrahan, [Gaze Data for the Analysis of Attention in Feature
+Films](https://graphics.stanford.edu/~kbreeden/gazedata.html)
+
+Tomáš Souček and Jakub Lokoč, [TransNet V2: An effective deep network architecture for fast
 shot transition detection](https://github.com/soCzech/TransNetV2)
 
 ## Setup
