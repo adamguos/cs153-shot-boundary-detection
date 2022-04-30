@@ -1,5 +1,4 @@
 import numpy as np
-from scipy.optimize import fmin
 from sklearn.base import BaseEstimator, ClassifierMixin
 from sklearn.metrics import f1_score
 from sklearn.utils.validation import check_X_y, check_array, check_is_fitted
