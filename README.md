@@ -7,6 +7,8 @@ shot transition detection](https://github.com/soCzech/TransNetV2)
 
 ## Setup
 
+Install required packages using pip: `pip install -r requirements.txt`. Also install Tensorflow.
+
 Download the dataset and place the files like so:
 
 ```
