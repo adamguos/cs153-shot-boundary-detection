@@ -39,6 +39,7 @@ def compute_sum_of_squares_diff(clip):
         prev = curr
 
     print(' ' * 50, end='\r')
+    os.makedirs('features', exist_ok=True)
     np.save(path, X)
 
 
@@ -66,6 +67,7 @@ def compute_keypoint_matches(clip):
     prev_kp, prev_des = detector.detectAndCompute(prev, None)
     flann = cv2.DescriptorMatcher_create(cv2.DescriptorMatcher_FLANNBASED)
 
+    os.makedirs('features', exist_ok=True)
     pickle_f = open(path, 'wb')
 
     for i in range(1, len(clip)):
