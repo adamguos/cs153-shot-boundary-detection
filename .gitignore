@@ -1,0 +1,7 @@
+*.npy
+*.pkl
+clips
+first-last-frames
+frames
+hand_coding
+__pycache__
